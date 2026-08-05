@@ -22,7 +22,7 @@ const float turnSpeedFactor = 0.2; // reduction factor for inner wheel when turn
 const int SEARCH_SPEED = 150;      // (unused when stopping on no line)
 const unsigned long SEARCH_TIMEOUT = 5000; // ms (unused when stopping on no line)
 
-// If your IR outputs LOW on detecting black set true, otherwise set false
+// If IR outputs are LOW on detecting black are set to true, otherwise set false
 const bool LINE_IS_BLACK_IS_LOW = true;
 
 // Debounce / smoothing
