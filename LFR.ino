@@ -6,8 +6,8 @@
 
 //3 Pin declaration
 // -------- IR SENSOR PINS --------
-const int RIGHT_SENSOR = 3;
-const int LEFT_SENSOR  = 11;
+const int RIGHT_SENSOR = 3; //pwm
+const int LEFT_SENSOR  = 11; //pwm
 
 //L298N PINS
 // Left motor
