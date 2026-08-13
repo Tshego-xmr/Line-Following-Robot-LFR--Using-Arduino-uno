@@ -57,7 +57,7 @@ void loop()
   // LEFT SENSOR DETECTS BLACK
   // Turn LEFT
   
-  else if (leftSensor == HIGH && rightSensor == HIGH)
+  else if (leftSensor == HIGH && rightSensor == LOW)
   {
     turnLeft();
   }
